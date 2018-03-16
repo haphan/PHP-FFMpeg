@@ -30,9 +30,6 @@ abstract class AbstractProgressListener extends EventEmitter implements Listener
     /** @var integer */
     private $currentSize;
 
-    /** @var integer */
-    private $currentTime;
-
     /** @var double */
     private $lastOutput = null;
 
